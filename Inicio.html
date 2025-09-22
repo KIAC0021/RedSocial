@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Inicio - Red Social</title>
+<link rel="icon" type="image/png" href=Image\126_sin_título_20240910205551.jpg />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <img src="Image\126_sin_título_20240910205551.jpg" alt="Logo" class="logo" style="margin:40 auto 40px">
+    <div>
+      <div style="font-weight:700">RedSocial</div>
+      <div style="font-size:12px;color:var(--muted)">Sección: Inicio</div>
+    </div>
+  </div>
+</header>
+
+<dib class="container">
+  <aside class="left">
+    <!-- Caja para crear post -->
+  <section class="write-box" aria-labelledby="crear-post">
+    <form onsubmit="event.preventDefault(); alert('Simulación de publicación enviada');">
+      <div style="width:56px">
+        <div class="avatar-sm" style="width:48px;height:48px;border-radius:10px;background:#eef7f6;display:flex;align-items:center;justify-content:center">AR</div>
+      </div>
+      <div style="flex:1">
+        <textarea placeholder="¿Qué estás pensando?"></textarea>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px">
+          <div class="write-actions">
+            <button type="button" class="btn secondary">Foto</button>
+            <button type="button" class="btn secondary">Video</button>
+          </div>
+          <div>
+            <button class="btn" type="submit">Publicar</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+</dib>
+  </aside>
+
+  <main class="feed">
+
+  <!-- Ejemplo de publicaciones -->
+  <article class="post" aria-label="publicación 1">
+    <div class="meta">
+       <img src="Image\Pidgeon.jpg" alt="Foto de perfil" class="avatar" alt="Foto de perfil" class="avatar" style="width:10%;border-radius:10px;margin-top:10px ">
+      <div class="info">
+        <div style="font-weight:700">Angel03 
+          <span style="font-weight:400;color:var(--muted);font-size:13px"> · 2 h</span>
+        </div>
+        <div style="font-size:13px;color:var(--muted)">Estudiante Ing.</div>
+      </div>
+    </div>
+    <div class="content">Ya quisiera estar asi.</div>
+    <img src="Image\Cat_Drinking_Wine.jpg" alt="Cat" class="post" style="width:100%;border-radius:10px;margin-top:10px">
+    <div class="actions">
+      <button>👍 Me gusta</button>
+      <button>💬 Comentar</button>
+      <button>↗ Compartir</button>
+    </div>
+  </article>
+
+  <article class="post" aria-label="publicación 2">
+    <div class="meta">
+       <img src="Image\Tafima.jpg" alt="Foto de perfil" class="avatar" alt="Foto de perfil" class="avatar" style="width:10%;border-radius:10px;margin-top:10px ">
+      <div class="info">
+        <div style="font-weight:700">Gonzalez Lozano 
+          <span style="font-weight:400;color:var(--muted);font-size:13px"> · 1 d</span>
+        </div>
+        <div style="font-size:13px;color:var(--muted)">Estudiante de Ing.</div>
+      </div>
+    </div>
+    <div class="content">Hoy Labure 🤑🤑🤑🤑</div>
+    <div class="actions">
+      <button>👍 Me gusta</button>
+      <button>💬 Comentar</button>
+    </div>
+  </article>
+  </main>
+
+</main>
+
+   
+
+
+<a href="index.html" class="btn-back">⬅ Regresar</a>
+
+</body>
+</html>
